@@ -67,55 +67,57 @@ export type Site = {
 }
 
 // ---------------------------------------------------------------------------
-// PLACEHOLDER DATA — swap for the real Honest websites.
+// The Fondly / Honest network.
 // ---------------------------------------------------------------------------
 export const SITES: Site[] = [
   {
-    name: "The Honest App",
-    url: "https://thehonestapp.com",
-    description: "Flagship product. The honest way to track what matters.",
-    category: "Product",
+    name: "Classifier Dashboard",
+    url: "https://classifier-dashboard.web.app",
+    description: "Classify and label content strategies.",
+    category: "Dashboards",
   },
   {
-    name: "Honest Blog",
-    url: "https://blog.thehonestapp.com",
-    description: "Stories, changelog and the thinking behind the product.",
-    category: "Content",
+    name: "Posting Bot Dashboard",
+    url: "https://posting-bot-dashboard.web.app",
+    description:
+      "Monitor account link taps and overall bot posting performance.",
+    category: "Dashboards",
   },
   {
-    name: "Honest Docs",
-    url: "https://docs.thehonestapp.com",
-    description: "Guides, API reference and integration walkthroughs.",
-    category: "Docs",
+    name: "Post Queue QA",
+    url: "https://post-queue-qa.web.app",
+    description: "QA inspector for the bot's post_queue.",
+    category: "QA",
   },
   {
-    name: "Honest Status",
-    url: "https://status.thehonestapp.com",
-    description: "Real-time uptime and incident history for all services.",
-    category: "Ops",
+    name: "Creator Metrics",
+    url: "https://fgc-fondlytools.web.app",
+    description: "View creator metrics and performance.",
+    category: "Analytics",
   },
   {
-    name: "Honest Careers",
-    url: "https://careers.thehonestapp.com",
-    description: "Open roles and what it's like to build here.",
+    name: "Flamingo Careers",
+    url: "https://flamingo-careers.web.app",
+    description: "Honest careers — open roles and the team behind it.",
     category: "Company",
   },
   {
-    name: "Honest Brand Kit",
-    url: "https://brand.thehonestapp.com",
-    description: "Logos, colors, typography and usage guidelines.",
-    category: "Design",
+    name: "Flamingo Playbook",
+    url: "https://flamingo-playbook.web.app",
+    description:
+      "Decode what makes a reel go viral — cluster by format, spot trends, find look-alikes, and hand editors data-backed briefs.",
+    category: "Analytics",
   },
   {
-    name: "Honest Support",
-    url: "https://support.thehonestapp.com",
-    description: "Help center, FAQs and ways to reach the team.",
-    category: "Support",
+    name: "Fondly Dashboard",
+    url: "https://fondly-dashboard.web.app",
+    description: "Inspect fetched competitor and owned account posts.",
+    category: "Dashboards",
   },
   {
-    name: "Honest API",
-    url: "https://api.thehonestapp.com",
-    description: "Developer platform, keys and webhook dashboard.",
-    category: "Docs",
+    name: "Fondly Tools",
+    url: "https://fondlytools.web.app",
+    description: "Internal tools hub for Fondly projects. Access restricted.",
+    category: "Internal",
   },
 ]

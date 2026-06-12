@@ -94,7 +94,11 @@ export function App() {
         }}
       />
 
-      {/* fixed HUD chrome */}
+      {/* fixed HUD chrome — frame + blurred outer band */}
+      <div className="pointer-events-none fixed top-0 right-0 left-0 z-40 h-4 backdrop-blur-md" />
+      <div className="pointer-events-none fixed right-0 bottom-0 left-0 z-40 h-4 backdrop-blur-md" />
+      <div className="pointer-events-none fixed top-4 bottom-4 left-0 z-40 w-4 backdrop-blur-md" />
+      <div className="pointer-events-none fixed top-4 right-0 bottom-4 z-40 w-4 backdrop-blur-md" />
       <div className="pointer-events-none fixed inset-4 z-40 border border-border/25" />
       <Corners fixed color="text-border/70" />
 
