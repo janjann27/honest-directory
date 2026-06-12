@@ -2,7 +2,7 @@
  * The Honest network directory.
  *
  * 👉 REPLACE the entries below with your real websites.
- *    Each entry needs: name, url, description, category.
+ *    Each entry needs: name, url, description, category.depl
  *    `accent` is optional — leave it out and a color from the
  *    anime.js rainbow ramp is assigned automatically by position.
  */
@@ -119,5 +119,35 @@ export const SITES: Site[] = [
     url: "https://fondlytools.web.app",
     description: "Internal tools hub for Fondly projects. Access restricted.",
     category: "Internal",
+  },
+  {
+    name: "IG Scrape",
+    url: "https://igscrape.web.app",
+    description: "Instagram scraping and data collection tool.",
+    category: "Tools",
+  },
+  {
+    name: "Honest Tools",
+    url: "https://honest-tools.web.app",
+    description: "Internal Honest tooling and utilities.",
+    category: "Tools",
+  },
+  {
+    name: "Admin Portal",
+    url: "https://honest-admin-portal.web.app",
+    description: "Admin portal for managing the Honest platform.",
+    category: "Admin",
+  },
+  {
+    name: "My Portal",
+    url: "https://honest-myportal.web.app",
+    description: "Personal member portal.",
+    category: "Admin",
+  },
+  {
+    name: "Post Checker",
+    url: "https://honest-post-checker.web.app",
+    description: "Check and validate posts before they go out.",
+    category: "QA",
   },
 ]

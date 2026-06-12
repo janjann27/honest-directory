@@ -232,21 +232,15 @@
 }
 
 
-/* slim warm scrollbar to match the palette */
+/* hidden scrollbar (scroll still works) */
+html {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* old Edge/IE */
+}
 ::-webkit-scrollbar {
-    width: 10px;
-    height: 10px;
-}
-::-webkit-scrollbar-track {
-    background: var(--hex-bg-1);
-}
-::-webkit-scrollbar-thumb {
-    background: var(--hex-bg-5);
-    border-radius: 999px;
-    border: 2px solid var(--hex-bg-1);
-}
-::-webkit-scrollbar-thumb:hover {
-    background: var(--hex-red-1);
+    width: 0;
+    height: 0;
+    display: none;
 }
 
 ::selection {
